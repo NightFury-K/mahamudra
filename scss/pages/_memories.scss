@@ -1,0 +1,49 @@
+.gallery {
+    .row {
+        .col-lg-3 {
+
+
+            a {
+                position: relative;
+
+                p {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: white;
+                    position: absolute;
+                    bottom: -150px;
+                    transform: translateX(40%);
+                }
+
+                img {
+                    height: 357px;
+                    width: 295px;
+                    border-radius: 10px;
+
+                }
+            }
+        }
+    }
+}
+.pokhara-tour{
+    .row{
+        .col-lg-4{
+            a{
+                img{
+                    height: 479px;
+                    border-radius: 7px;
+
+                }
+            }
+        }
+        .col-lg-6{
+            a{
+                img{
+                    height: 405px;
+                    border-radius: 7px;
+                }
+            }
+
+        }
+    }
+}

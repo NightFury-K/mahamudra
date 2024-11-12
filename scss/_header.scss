@@ -1,0 +1,36 @@
+header{
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    img{
+        filter: brightness(0) invert(1);
+    }
+    .menu-btn{
+        padding: 10px 20px;
+        border: 1px solid white;
+    }
+    .sidemenu-open{
+        color: white;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+header.scrolled{
+    background-color: white;
+    color: black;
+    img{
+        filter: none;
+    }
+    .menu-btn{
+        padding: 10px 20px;
+        border: 1px solid $primary-color;
+        color: $primary-color;
+    }
+    .sidemenu-open{
+        color: black;
+    }
+}

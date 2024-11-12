@@ -1,0 +1,144 @@
+.wrapper {
+    .row {
+        .col-12 {
+            text-align: center;
+
+            img {
+                border-radius: 10px;
+                height: 250px;
+            }
+
+            .down {
+                padding: 20px;
+
+                h3 {
+
+
+
+
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+
+                }
+
+                .date {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #767676;
+                    ;
+                }
+            }
+
+        }
+    }
+}
+
+
+.latest-travel-blogs {
+    .gy-4 {
+        .col-12 {
+            text-align: center;
+
+            img {
+                border-radius: 10px;
+                height: 250px;
+            }
+
+            .down {
+                padding: 20px;
+
+                h3 {
+
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+
+                }
+
+                .date {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #767676;
+                    ;
+                }
+            }
+
+        }
+    }
+}
+
+.blog-post {
+    .row {
+        margin-top: 80px;
+        .col-lg-8{
+            img{
+                border-radius: 20px;
+                height: 405px;
+                width: 820px;
+            }
+            .pages-topic{
+                p{
+                    font-size: 36px;
+                    font-weight: 400;
+                }
+                h2{
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                span{
+                    color: #767676;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .col-lg-4 {
+            padding: 40px 20px;
+            border-radius: 10px;
+            border: 1px solid #D9D9D9;
+            height: max-content;
+
+            h3 {
+                color: #1C3B70;
+                font: 24px;
+                font-weight: 600;
+            }
+
+            .blog {
+                padding-bottom: 20px;
+                border-bottom: 1px solid #D9D9D9;
+
+                :last-child {
+                    border-bottom: none;
+                }
+
+                img {
+                    height: 78px;
+                    width: 90px;
+                    border-radius: 5px;
+                }
+
+                .text {
+                    margin-left: 20px;
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #655C5C;
+                        margin-bottom: 0px;
+
+                    }
+
+                    span {
+                        color: #767676;
+                        font-size: 14px;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+footer {
+    background: url("../images/footer/cover-img.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    color: white;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.459);
+        z-index: 1;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .association-img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        background-color: white;
+    }
+
+
+    .social-icons a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .list-unstyled {
+        line-height: 30px;
+    }
+}
